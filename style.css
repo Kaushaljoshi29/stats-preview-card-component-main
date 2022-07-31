@@ -121,14 +121,19 @@ picture {
   .hero-info {
     margin: 0 2em;
     padding: 3em 2em;
+    width: 50%;
   }
   .card-container {
     flex-direction: row-reverse;
   }
 
-  .hero-image {
+  picture{
     width: 50%;
-    height: auto;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
   }
   .hero-info-description {
